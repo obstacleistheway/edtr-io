@@ -815,6 +815,13 @@ There are now more parts of the editor's UI configurable. More specifically, we 
       fixed: [
         '**default-document-editor**. Create `BorderlessOverlayButton` statically'
       ]
+    },
+    {
+      breakingChanges: [
+        '**core**. Remove `EditorContext`',
+        '**core**. Rename `DocumentProps` to `SubDocumentProps`',
+        '**core**. Mark `Preference`, `PreferenceContext` and `setDefaultPreference` as beta API'
+      ]
     }
   ])
 
