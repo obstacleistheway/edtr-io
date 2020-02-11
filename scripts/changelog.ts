@@ -820,7 +820,11 @@ There are now more parts of the editor's UI configurable. More specifically, we 
       breakingChanges: [
         '**core**. Remove `EditorContext`',
         '**core**. Rename `DocumentProps` to `SubDocumentProps`',
-        '**core**. Mark `Preference`, `PreferenceContext` and `setDefaultPreference` as beta API'
+        '**core**. Mark `Preference`, `PreferenceContext` and `setDefaultPreference` as beta API',
+        '**document-editor**. Mark as beta API',
+        '**default-document-editor**. Mark as beta API',
+        '**default-plugin-toolbar**. Mark as beta API',
+        '**plugin-toolbar**. Mark as beta API'
       ]
     }
   ])
